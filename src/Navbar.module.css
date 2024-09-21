@@ -1,0 +1,37 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.options ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+
+}
+.options ul li{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.options ul li:nth-child(2) {
+    color: blue;font-weight: bolder;
+
+}
